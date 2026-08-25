@@ -2,3 +2,4 @@ body { font-family: system-ui, sans-serif; display: grid; place-items: center; m
 main { text-align: center; }
 input, button { font-size: 1rem; padding: 0.5rem; }
 #out { font-size: 1.5rem; }
+button { cursor: pointer; background: #2563eb; color: white; border: none; border-radius: 6px; }
