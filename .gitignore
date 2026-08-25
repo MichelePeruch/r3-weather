@@ -1,0 +1,14 @@
+# macOS junk
+.DS_Store
+
+# Secrets — NEVER commit these
+.env
+.env.local
+*.pem
+*.key
+
+# Generated at build time, not source
+config.js
+
+# Dependencies
+node_modules/
