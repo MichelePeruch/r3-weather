@@ -15,7 +15,7 @@ document.getElementById('go').addEventListener('click', async () => {
   out.textContent = 'Loading...';
   try {
     const data = await lookup(city);
-    out.textContent = `${data.name}: ${Math.round(data.main.temp)}°C`;
+    out.textContent = `${data.name}: ${Math.round(data.main.temp)}°C · ${data.main.humidity}% humidity`;
   } catch (err) {
     out.textContent = `Error: ${err.message}`;
   }
